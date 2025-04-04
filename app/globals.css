@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Darker+Grotesque:wght@300..900&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -10,6 +10,7 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --color-black: #000000;
+  --color-coal: #313131;
   --color-white: #FFFFFF;
   --color-cream: #f0f0ed;
   --color-americano: #876E54;
@@ -53,7 +54,7 @@
 }
 
 body {
-  color: var(--black);
+  color: var(--color-coal);
   font-family: "Darker Grotesque", Helvetica, sans-serif;
 }
 
