@@ -24,6 +24,7 @@ export default function RootLayout({
         {path: "/work", name: "work"},
         {path: "/blog", name: "blog"},
         {path: "/tools", name: "tools"},
+        {path: "/contact", name: "contact"},
     ]
 
 
@@ -32,15 +33,16 @@ export default function RootLayout({
         <body
             className={`bg-cream flex-col antialiased lg:p-12 md:p-10 p-1 relative`}
         >
-        <main className={"flex-col space-y-6 bg-white border-[3px] shadow-[6px_6px_0px_0px_rgba(0,_0,_0,_1)] border-black rounded-2xl " +
+        <main className={"flex-col space-y-6  rounded-2xl " +
             "lg:max-w-3/4 xl:max-w-2/3 m-auto px-8 py-4"}>
             <nav className={"flex justify-between items-center transition-all ease-in-out"}>
-                <Link href={"/"} className={"text-7xl font-[900] flex items-center space-x-2 group"}>
+                <Link href={"/"} className={"text-8xl font-[900] flex items-center space-x-2 group"}>
                     <span>rhys&apos; website.</span>
                     <Undo2 className={"text-white bg-coal p-1 rounded-sm " +
                         "group-hover:bg-jade  transition-all ease-in-out duration-500"} />
                 </Link>
-                <section className={"flex flex-col items-start md:flex-row md:items-center md:space-x-4"}>
+                <section className={"flex flex-col items-start md:flex-row md:items-center md:space-x-4 bg-white " +
+                    "border-[3px] shadow-[6px_6px_0px_0px_rgba(0,_0,_0,_1)] border-black px-2 py-1 rounded-lg"}>
                     {routes.map((route: Route) => (
                         <section className={"flex-col group"} key={route.name}>
                             <Link href={route.path}
