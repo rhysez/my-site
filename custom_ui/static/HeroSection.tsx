@@ -1,4 +1,5 @@
 import Link from "next/link";
+import HeroLink from "@/custom_ui/static/HeroLink";
 
 
 export default function HeroSection() {
@@ -53,6 +54,13 @@ export default function HeroSection() {
                    </p>
                </section>
            </hgroup>
+            <hgroup>
+                <h4 className={"text-3xl font-[900]"}>Links</h4>
+                <section className={"flex flex-wrap items-center space-x-2 max-w-1/2 mt-2"}>
+                    <HeroLink url={"https://github.com/rhysez"} text={"Github"}/>
+                    <HeroLink url={"https://www.linkedin.com/in/rhys-hodgson-8262b3218/"} text={"LinkedIn"}/>
+                </section>
+            </hgroup>
         </article>
     )
 }
