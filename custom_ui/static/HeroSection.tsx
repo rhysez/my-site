@@ -1,11 +1,13 @@
 import Link from "next/link";
 import HeroLink from "@/custom_ui/static/HeroLink";
+import SectionHeader from "@/custom_ui/static/SectionHeader";
+import SectionTextBody from "@/custom_ui/static/SectionTextBody";
 
 
 export default function HeroSection() {
     return (
         <article className={"py-6 space-y-4"}>
-            <section>
+            <section className={"space-y-2"}>
                 <p className={"lora text-xl font-[300]"}>
                     I&apos;m a web developer based in Cornwall, UK. This is my website.
                 </p>
@@ -14,14 +16,14 @@ export default function HeroSection() {
                 </p>
             </section>
            <hgroup>
-               <h4 className={"text-3xl font-[900]"}>What I&apos;m currently doing</h4>
-               <section className={"space-y-2 md:max-w-1/2"}>
+               <SectionHeader text={"what i'm currently doing"} />
+               <SectionTextBody>
                   <p className={"lora text-base font-[300]"}>
                       At the moment I&apos;m working for{" "}
                       <Link className={"underline hover:text-jade transition-all"} href={"https://quantavia.net"}>
                           Quantavia
                       </Link>
-                      {" "}as a Software Engineer. (I even built their website!)
+                      {" "}as a Software Engineer (I even built their website!).
                       My day-to-day consists of building new products, co-ordinating with the UX team and writing documentation.
                       We specialise in designing and building software solutions for the aviation industry.
 
@@ -31,31 +33,31 @@ export default function HeroSection() {
                       <Link href={"/contact"} className={"underline hover:text-jade transition-all"}>get in touch</Link>{" "}
                       if you think I can help.
                   </p>
-               </section>
+               </SectionTextBody>
            </hgroup>
             <hgroup>
-                <h4 className={"text-3xl font-[900]"}>Freelance work</h4>
-                <section className={"space-y-2 md:max-w-1/2"}>
+                <SectionHeader text={"freelance work"} />
+                <SectionTextBody>
                     <p className={"lora text-base font-[300]"}>
                         I am available for freelance work (dependent on scope) and you can{" "}
                         <Link href={"/contact"} className={"underline hover:text-jade transition-all"}>contact me directly</Link>{" "}
                         to enquire about a potential project.
                     </p>
-                </section>
+                </SectionTextBody>
             </hgroup>
            <hgroup>
-               <h4 className={"text-3xl font-[900]"}>Read my blog</h4>
-               <section className={"space-y-2 md:max-w-1/2"}>
+               <SectionHeader text={"read my blog"} />
+               <SectionTextBody>
                    <p className={"lora text-base font-[300]"}>
                        I like to write about the multitude of things that interest me. A lot of this will be
                        tech related, but not always! If by some divine chance you are interested in seeing what I
                        have to say, I&apos;d encourage you to <Link href={"/blog"} className={"underline hover:text-jade transition-all"}>
                        take a look at my blog</Link>.
                    </p>
-               </section>
+               </SectionTextBody>
            </hgroup>
             <hgroup>
-                <h4 className={"text-3xl font-[900]"}>Links</h4>
+                <h4 className={"text-3xl font-[900]"}>links</h4>
                 <section className={"flex flex-wrap items-center gap-2 max-w-1/2 mt-2"}>
                     <HeroLink url={"https://github.com/rhysez"} text={"Github"}/>
                     <HeroLink url={"https://www.linkedin.com/in/rhys-hodgson-8262b3218/"} text={"LinkedIn"}/>
