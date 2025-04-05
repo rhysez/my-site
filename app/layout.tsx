@@ -46,7 +46,7 @@ export default function RootLayout({
                     {routes.map((route: Route) => (
                         <section className={"flex-col group"} key={route.name}>
                             <Link href={route.path}
-                                  className={"sm:text-2xl text-lg font-[800] transition-all ease-in-out"}>{route.name}</Link>
+                                  className={"sm:text-2xl text-lg font-[800] transition-all ease-in-out text-nowrap"}>{route.name}</Link>
                             <div
                                 className={"h-1 bg-jade rounded-full w-0 group-hover:w-full transition-all ease-in-out"}></div>
                         </section>
