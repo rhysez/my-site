@@ -1,10 +1,10 @@
 import Image from "next/image";
-import SiteIntro from "@/custom_ui/static/SiteIntro";
+import HeroSection from "@/custom_ui/static/HeroSection";
 
 export default function Home() {
   return (
         <main>
-            <SiteIntro />
+            <HeroSection />
         </main>
       );
 }

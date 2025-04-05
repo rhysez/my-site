@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Darker+Grotesque:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -7,14 +7,12 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
   --color-black: #000000;
   --color-coal: #313131;
   --color-white: #FFFFFF;
-  --color-cream: #f0f0ed;
+  --color-cream: #E2D2C3;
   --color-americano: #876E54;
-  --color-jade: #48e88b;
+  --color-jade: #3ac974;
   --color-soft-jade: var(--color-green-50);
   --color-grapefruit: #FF5454;
   --color-groove: #B37DFF;
@@ -56,6 +54,10 @@
 body {
   color: var(--color-coal);
   font-family: "Darker Grotesque", Helvetica, sans-serif;
+}
+
+.lora {
+  font-family: "Lora", "Darker Grotesque", Helvetica, sans-serif;
 }
 
 :root {
