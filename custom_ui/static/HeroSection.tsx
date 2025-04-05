@@ -15,7 +15,7 @@ export default function HeroSection() {
             </section>
            <hgroup>
                <h4 className={"text-3xl font-[900]"}>What I&apos;m currently doing</h4>
-               <section className={"space-y-2 max-w-1/2"}>
+               <section className={"space-y-2 md:max-w-1/2"}>
                   <p className={"lora text-base font-[300]"}>
                       At the moment I&apos;m working for{" "}
                       <Link className={"underline hover:text-jade transition-all"} href={"https://quantavia.net"}>
@@ -35,7 +35,7 @@ export default function HeroSection() {
            </hgroup>
             <hgroup>
                 <h4 className={"text-3xl font-[900]"}>Freelance work</h4>
-                <section className={"space-y-2 max-w-1/2"}>
+                <section className={"space-y-2 md:max-w-1/2"}>
                     <p className={"lora text-base font-[300]"}>
                         I am available for freelance work (dependent on scope) and you can{" "}
                         <Link href={"/contact"} className={"underline hover:text-jade transition-all"}>contact me directly</Link>{" "}
@@ -45,7 +45,7 @@ export default function HeroSection() {
             </hgroup>
            <hgroup>
                <h4 className={"text-3xl font-[900]"}>Read my blog</h4>
-               <section className={"space-y-2 max-w-1/2"}>
+               <section className={"space-y-2 md:max-w-1/2"}>
                    <p className={"lora text-base font-[300]"}>
                        I like to write about the multitude of things that interest me. A lot of this will be
                        tech related, but not always! If by some divine chance you are interested in seeing what I
@@ -56,7 +56,7 @@ export default function HeroSection() {
            </hgroup>
             <hgroup>
                 <h4 className={"text-3xl font-[900]"}>Links</h4>
-                <section className={"flex flex-wrap items-center space-x-2 max-w-1/2 mt-2"}>
+                <section className={"flex flex-wrap items-center gap-2 max-w-1/2 mt-2"}>
                     <HeroLink url={"https://github.com/rhysez"} text={"Github"}/>
                     <HeroLink url={"https://www.linkedin.com/in/rhys-hodgson-8262b3218/"} text={"LinkedIn"}/>
                 </section>
