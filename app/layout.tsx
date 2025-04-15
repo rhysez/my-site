@@ -22,7 +22,6 @@ export default function RootLayout({
     const routes: Route[] = [
         {path: "/work", name: "work"},
         {path: "/blog", name: "blog"},
-        {path: "/tools", name: "tools"},
         {path: "/contact", name: "contact"},
         {path: "/about", name: "about"},
     ]
