@@ -24,7 +24,7 @@ export default function RootLayout({
         {path: "/blog", name: "blog"},
         {path: "/tools", name: "tools"},
         {path: "/contact", name: "contact"},
-        {path: "/about", name: "story-time"},
+        {path: "/about", name: "about"},
     ]
 
     return (

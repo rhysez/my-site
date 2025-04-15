@@ -12,72 +12,50 @@ export default function Page() {
                    Wait... you&apos;re <em>actually</em> reading this?
 
                 </p>
-                <p className={"lora text-xl font-[300]"}>
-                    Okay, here&apos;s how I got to where I am today...
-                </p>
             </section>
 
             <hgroup>
-                <SectionHeader text={"1. setting the scene"} />
+                <SectionHeader text={"about me"} />
                 <SectionTextBody>
                     <p className={"lora text-base font-[300]"}>
-                        It wouldn&apos;t be unreasonable to say that I&apos;ve always been a massive geek. In fact it
-                        would be 100% accurate to say so. But here&apos;s the problem - Cornwall has never had that
-                        many opportunities for people who want to get into the tech industry. I live by the sea, where
-                        pretty much anyone can become a chef or tradesman - but not a full time programmer. I&apos;ve always
-                        had a fascination with <em>how stuff actually works</em>, so I ended up aspiring to be a game
-                        developer like every other kid my age.
+                        I&apos;m a software developer from Cornwall who primarily works with web and mobile technologies.
+                        I like to keep up to date with the tech world as we know it. I originally got started with programming by
+                        learning how to build websites as a hobby while I worked as a sales advisor in a call centre, and
+                        I quickly became obsessed with <em>everything</em>. I really hated my job at the time, so I saw a real
+                        opportunity to make a career change into tech as a software developer.
                     </p>
                     <p className={"lora text-base font-[300]"}>
-                        And then I realised, "there are literally no game dev jobs here".
-                    </p>
-                    <p className={"lora text-base font-[300]"}>
-                        So I graduated with some A-levels thinking I wanted to become some sort of journalist, because
-                        I really enjoyed writing about my interests, one of which being horror films.
-                    </p>
-                    <p className={"lora text-base font-[300]"}>
-                        I didn&apos;t become a journalist. Who in their right mind would do that?
+                        I&apos;m really into gaming and coastal walks too.
                     </p>
                 </SectionTextBody>
             </hgroup>
             <hgroup>
-                <SectionHeader text={"2. reality sinks in"} />
+                <SectionHeader text={"about the website"} />
                 <SectionTextBody>
                     <p className={"lora text-base font-[300]"}>
-                        Eventually I ended up working in B2C sales. I became pretty good at it! But here&apos;s the
-                        problem - it sucked. Unrealistic targets, poor work life balance and a myriad of other
-                        big corporation tropes. This started to affect my relationships and mental health. Something had
-                        to change.
+                        This website is a Next.js project. It uses TypeScript and Tailwind CSS.
                     </p>
                 </SectionTextBody>
             </hgroup>
             <hgroup>
-                <SectionHeader text={"3. the dark nerd rises"} />
+                <SectionHeader text={"tools i like"} />
                 <SectionTextBody>
                     <p className={"lora text-base font-[300]"}>
-                        I thought about game dev again, played around with tools like Unity and Unreal. While I enjoyed
-                        the learning process, I found the prospect of making a game very risky.
+                        I thought I&apos;d include this section so that I can recommend a few tools that I personally like
+                        using as part of my day-to-day work.
                     </p>
-                    <p className={"lora text-base font-[300]"}>
-                        The part that kept me coming back was the <em>coding</em>. That&apos;s it, I can learn to code.
-                        So I became a web developer.
-                    </p>
-                </SectionTextBody>
-            </hgroup>
-            <hgroup>
-                <SectionHeader text={"4. fast forward to now"} />
-                <SectionTextBody>
-                    <p className={"lora text-base font-[300]"}>
-                        I&apos;m now working in a team of really cool people and I have the freedom to pursue
-                        other business ventures in my spare time using the skills that I&apos;ve learned along
-                        the way. So I decided to build this site so that I can talk about the things that interest
-                        me, update you on my journey and offer freelance services where required.
-                    </p>
-                    <p className={"lora text-base font-[300]"}>
-                        I want this page to serve as a word of encouragement to those who feel the need to make a
-                        drastic change in their lives. All of the sarcasm aside, I really am lucky to do what I do for a
-                        living.
-                    </p>
+
+                    <ul className={"lora text-base font-[300] list-disc ml-4 flex-col space-y-2"}>
+                        <li>Obsidian - I find that note taking is a very valuable thing as a developer.
+                            Obsidian is an open source, almost infinitely configurable note taking app that
+                            stores everything in markdown. I literally use it for everything.</li>
+                        <li>JetBrains IDEs - I used to use VSCode, but JetBrains stuff just makes refactoring larger
+                            codebases so much easier for me. The built-in tooling is great and makes my life easier.</li>
+                        <li>Vim - Okay, put your pitchforks down, I&apos;m not man enough for <em>actual vim</em> yet.
+                            I&apos;m talking about a vim plugin for your IDE. It makes highlighting, deleting and moving my code
+                            way faster and my wrist doesn&apos;t hurt anymore.</li>
+                        <li>TypeScript - It&apos;s like JavaScript, but better in every way?</li>
+                    </ul>
                 </SectionTextBody>
             </hgroup>
         </article>

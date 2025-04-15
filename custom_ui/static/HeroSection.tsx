@@ -9,7 +9,7 @@ export default function HeroSection() {
         <article className={"py-6 space-y-4"}>
             <section className={"space-y-2"}>
                 <p className={"lora text-xl font-[300]"}>
-                    I&apos;m a web developer based in Cornwall, UK. This is my website.
+                    I&apos;m a software developer based in Cornwall, UK. This is my website.
                 </p>
                 <p className={"lora text-xl font-[300]"}>
                     I won&apos;t bore you, here&apos;s the important stuff at a glance...
