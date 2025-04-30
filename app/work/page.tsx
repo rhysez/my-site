@@ -28,7 +28,7 @@ export default function Page() {
                     many real world flight operations.
                 </p>
                 <p className={"lora text-base font-[300]"}>
-                    At the time of writing this, we are continuing to iterate on Digital Forms to extend it&apos; functionality. You can find out more
+                    At the time of writing this, we are continuing to iterate on Digital Forms to extend it&apos;s functionality. You can find out more
                     on the Quantavia blog <Link className={"underline hover:text-jade transition-all"} href={"https://quantavia.net/blog"}>here</Link>.
                 </p>
             </SectionTextBody>
@@ -78,7 +78,7 @@ export default function Page() {
 
         <hgroup>
             <SectionHeader text={"trove"} />
-            <h5 className={"lora text-sm font-[900] my-2 opacity-75"}>Pure C++, Open Source</h5>
+            <h5 className={"lora text-sm font-[900] my-2 opacity-75"}>Pure C++, Open Source, Linux, macOS</h5>
             <SectionTextBody>
                 <p className={"lora text-base font-[300]"}>
                     Trove is a personal side-project that I open sourced this year. It is a CLI tool that allows you to
