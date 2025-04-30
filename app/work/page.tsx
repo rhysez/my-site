@@ -60,6 +60,25 @@ export default function Page() {
         </hgroup>
 
         <hgroup>
+            <SectionHeader text={"fcm api"} />
+            <h5 className={"lora text-sm font-[900] my-2 opacity-75"}>PHP (Laravel), MySQL, MongoDB, Kubernetes, AWS S3</h5>
+            <SectionTextBody>
+                <p className={"lora text-base font-[300]"}>
+                    I have made key contributions to the FCM API, which powers multiple services within the main Kubernetes
+                    cluster for Quantavia.
+                </p>
+                <p className={"lora text-base font-[300]"}>
+                    One such contribution was an implementation of a cloud media repository for users of the Digital Forms module.
+                    This system allows users to upload media files (JPG, JPEG, PNG) to the API, at which point these files are optimised and stored in S3.
+                    Users can then pull these files into the Digital Forms module to view all of their media.
+                </p>
+                <p className={"lora text-base font-[300]"}>
+                    I have also contributed to unit testing, HTTP testing and assisted in logic re-writes that interface with a MySQL database.
+                </p>
+            </SectionTextBody>
+        </hgroup>
+
+        <hgroup>
             <SectionHeader text={"quantavia.net"} />
             <h5 className={"lora text-sm font-[900] my-2 opacity-75"}>TypeScript, React, TailwindCSS, QuillJS</h5>
             <SectionTextBody>
