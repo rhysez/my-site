@@ -3,14 +3,10 @@ import SectionTextBody from "@/custom_ui/static/SectionTextBody";
 
 export default function Page() {
     return (
-        <article className={"py-6 space-y-4"}>
+        <article className={"py-6 space-y-4 text-white"}>
             <section className={"space-y-2"}>
-                <p className={"lora text-xl font-[300]"}>
+                <p className={"lora font-[300]"}>
                     This is the part where I tell you all about myself.
-                </p>
-                <p className={"lora text-xl font-[300]"}>
-                   Wait... you&apos;re <em>actually</em> reading this?
-
                 </p>
             </section>
 
@@ -55,6 +51,8 @@ export default function Page() {
                             I&apos;m talking about a vim plugin for your IDE. It makes highlighting, deleting and moving my code
                             way faster and my wrist doesn&apos;t hurt anymore.</li>
                         <li>TypeScript - It&apos;s like JavaScript, but better in every way?</li>
+                        <li>Excalidraw - I really like using this to sketch out diagrams before I start building a feature or project.
+                         There is also a great plugin for Obsidian.</li>
                     </ul>
                 </SectionTextBody>
             </hgroup>

@@ -3,12 +3,10 @@ import SectionTextBody from "@/custom_ui/static/SectionTextBody";
 
 export default function Page() {
     return (
-        <article className={"py-6 space-y-4"}>
-            <section>
-                <p className={"lora text-xl font-[300]"}>
-
-                </p>
-            </section>
+        <article className={"py-6 space-y-4 text-white"}>
+            <p className={"lora font-[300]"}>
+                Find out how to contact me
+            </p>
 
             <hgroup>
                 <SectionHeader text={"contact me"} />

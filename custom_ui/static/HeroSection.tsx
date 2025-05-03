@@ -6,12 +6,12 @@ import SectionTextBody from "@/custom_ui/static/SectionTextBody";
 
 export default function HeroSection() {
     return (
-        <article className={"py-6 space-y-4"}>
+        <article className={"py-6 space-y-4 text-white"}>
             <section className={"space-y-2"}>
-                <p className={"lora text-xl font-[300]"}>
+                <p className={"lora font-[300]"}>
                     I&apos;m a software developer based in Cornwall, UK. This is my website.
                 </p>
-                <p className={"lora text-xl font-[300]"}>
+                <p className={"lora font-[300]"}>
                     I won&apos;t bore you, here&apos;s the important stuff at a glance...
                 </p>
             </section>
@@ -23,15 +23,10 @@ export default function HeroSection() {
                       <Link className={"underline hover:text-jade transition-all"} href={"https://quantavia.net"}>
                           Quantavia
                       </Link>
-                      {" "}as a Software Engineer (I even built their website!).
+                      {" "}as a Software Engineer.
                       My day-to-day consists of building new products, co-ordinating with the UX team and writing documentation.
                       We specialise in designing and building software solutions for the aviation industry.
 
-                  </p>
-                  <p className={"lora text-base font-[300]"}>
-                      I&apos;m still available for freelance gigs dependent on scope, so{" "}
-                      <Link href={"/contact"} className={"underline hover:text-jade transition-all"}>get in touch</Link>{" "}
-                      if you think I can help.
                   </p>
                </SectionTextBody>
            </hgroup>
@@ -39,9 +34,13 @@ export default function HeroSection() {
                 <SectionHeader text={"freelance work"} />
                 <SectionTextBody>
                     <p className={"lora text-base font-[300]"}>
-                        I am available for freelance work (dependent on scope) and you can{" "}
+                        Depending on free time, I may be available for freelance work (dependent on scope) and you can{" "}
                         <Link href={"/contact"} className={"underline hover:text-jade transition-all"}>contact me directly</Link>{" "}
                         to enquire about a potential project.
+                    </p>
+                    <p className={"lora text-base font-[300]"}>
+                        Due to working full time, my job is my priority. Any freelance work will be carried out during
+                        free time and/or weekends.
                     </p>
                 </SectionTextBody>
             </hgroup>

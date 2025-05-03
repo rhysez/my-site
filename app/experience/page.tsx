@@ -4,10 +4,14 @@ import Link from "next/link";
 
 export default function Page() {
     return (
-    <article className={"py-6 space-y-4"}>
+    <article className={"py-6 space-y-4 text-white"}>
         <section className={"space-y-2"}>
-            <p className={"lora text-xl font-[300]"}>
+            <p className={"lora font-[300]"}>
                 Here&apos;s some real world software I&apos;ve worked on.
+            </p>
+            <p className={"lora font-[300] text-wrap max-w-xl"}>
+                Note: Not all of this software is publicly accessible. Services like FlightCrewManager and FCM Hub are only
+                available to users who pay for a subscription.
             </p>
         </section>
 
