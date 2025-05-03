@@ -11,7 +11,7 @@ export default function Page() {
             </p>
             <p className={"lora font-[300] text-wrap max-w-xl"}>
                 Note: Not all of this software is publicly accessible. Services like FlightCrewManager and FCM Hub are only
-                available to users who pay for a subscription.
+                available to users who pay for a subscription. I do not own FlightCrewManager, FCM Hub, the FCM API, or the Quantavia site.
             </p>
         </section>
 
