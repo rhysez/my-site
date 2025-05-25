@@ -20,8 +20,8 @@ export default function RootLayout({
 }>) {
 
     const routes: Route[] = [
-        {path: "/experience", name: "experience"},
-        {path: "/blog", name: "blog"},
+        {path: "/commercial", name: "commercial work"},
+        {path: "/personal", name: "personal projects"},
         {path: "/contact", name: "contact"},
         {path: "/about", name: "about"},
     ]

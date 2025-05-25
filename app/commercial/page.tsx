@@ -98,27 +98,6 @@ export default function Page() {
                 </p>
             </SectionTextBody>
         </hgroup>
-
-        <hgroup>
-            <SectionHeader text={"trove"} />
-            <h5 className={"lora text-sm font-[900] my-2 opacity-75"}>Pure C++, Open Source, Linux, macOS</h5>
-            <SectionTextBody>
-                <p className={"lora text-base font-[300]"}>
-                    Trove is a personal side-project that I open sourced this year. It is a CLI tool that allows you to
-                    sort your directories into sub-directories categorised by file type. It also allows you to restore directories
-                    to their former state. It&apos;s also really fast!
-                </p>
-                <p className={"lora text-base font-[300]"}>
-                    The Trove source code is written in pure C++ with a little bit of bash sprinkled in.
-                </p>
-                <p className={"lora text-base font-[300]"}>
-                    I decided to write Trove due to growing frustration with navigating my Downloads directory on my Linux Mint machine. I wanted to sort it out.
-                </p>
-                <p className={"lora text-base font-[300]"}>
-                    You can contribute or install Trove <Link className={"underline hover:text-jade transition-all"} href={"https://github.com/rhysez/trove"}>over here</Link>.
-                </p>
-            </SectionTextBody>
-        </hgroup>
     </article>
 
     )

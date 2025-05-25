@@ -45,12 +45,9 @@ export default function Page() {
                         <li>Obsidian - I find that note taking is a very valuable thing as a developer.
                             Obsidian is an open source, almost infinitely configurable note taking app that
                             stores everything in markdown. I literally use it for everything.</li>
-                        <li>JetBrains IDEs - I used to use VSCode, but JetBrains stuff just makes refactoring larger
-                            codebases so much easier for me. The built-in tooling is great and makes my life easier.</li>
-                        <li>Vim - Okay, put your pitchforks down, I&apos;m not man enough for <em>actual vim</em> yet.
-                            I&apos;m talking about a vim plugin for your IDE. It makes highlighting, deleting and moving my code
-                            way faster and my wrist doesn&apos;t hurt anymore.</li>
-                        <li>TypeScript - It&apos;s like JavaScript, but better in every way?</li>
+                        <li>NeoVim - I spent around 8 to 9 months using the Vim motions plugin for VS Code until
+I could eventually write code without experiencing diabolical levels of frustration. It was damn worth it though. NeoVim is more responsive than any
+IDE I&apos;ve used and lets me focus on the work at hand.</li>
                         <li>Excalidraw - I really like using this to sketch out diagrams before I start building a feature or project.
                          There is also a great plugin for Obsidian.</li>
                     </ul>

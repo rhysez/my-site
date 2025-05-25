@@ -30,6 +30,16 @@ export default function HeroSection() {
                   </p>
                </SectionTextBody>
            </hgroup>
+           <hgroup>
+               <SectionHeader text={"my areas of focus"} />
+               <SectionTextBody>
+                  <p className={"lora text-base font-[300]"}>
+                     The primary languages that I like to work with are TypeScript, C++ and PHP. The majority of my commercial experience
+                     can be found in web and mobile development. However, I am regularly writing lower level software with technologies like C++
+                     and CMake.
+                  </p>
+               </SectionTextBody>
+           </hgroup>
             <hgroup>
                 <SectionHeader text={"freelance work"} />
                 <SectionTextBody>
@@ -44,17 +54,6 @@ export default function HeroSection() {
                     </p>
                 </SectionTextBody>
             </hgroup>
-           <hgroup>
-               <SectionHeader text={"read my blog"} />
-               <SectionTextBody>
-                   <p className={"lora text-base font-[300]"}>
-                       I like to write about the multitude of things that interest me. A lot of this will be
-                       tech related, but not always! If by some divine chance you are interested in seeing what I
-                       have to say, I&apos;d encourage you to <Link href={"/blog"} className={"underline hover:text-jade transition-all"}>
-                       take a look at my blog</Link>.
-                   </p>
-               </SectionTextBody>
-           </hgroup>
             <hgroup>
                 <h4 className={"text-3xl font-[900]"}>links</h4>
                 <section className={"flex flex-wrap items-center gap-2 max-w-1/2 mt-2"}>
