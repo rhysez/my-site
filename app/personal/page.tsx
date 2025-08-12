@@ -1,6 +1,7 @@
 
 import SectionHeader from "@/custom_ui/static/SectionHeader";
 import SectionTextBody from "@/custom_ui/static/SectionTextBody";
+import ViewProjectButton from "@/custom_ui/static/ViewProjectButton";
 import Link from "next/link";
 
 export default function Page() {
@@ -20,10 +21,13 @@ export default function Page() {
             The inspiration for this project was the GNU 'tree' program. Willow can recursively visualise your system files based on
             a user specified depth level, which determines how deep in the file system tree to scan. The source code is written in Rust.
           </p>
-          <p className={"lora text-base font-[300]"}>
-            You can view the Willow repository <Link className={"underline hover:text-jade transition-all"} href={"https://github.com/rhysez/willow"}>over here</Link>.
-          </p>
         </SectionTextBody>
+        <div className="mt-4">
+          <ViewProjectButton
+            href="https://github.com/rhysez/willow"
+            variant="public"
+          />
+        </div>
       </hgroup>
       <hgroup>
         <SectionHeader text={"trove"} />
@@ -44,6 +48,13 @@ export default function Page() {
             You can contribute or install Trove <Link className={"underline hover:text-jade transition-all"} href={"https://github.com/rhysez/trove"}>over here</Link>.
           </p>
         </SectionTextBody>
+
+        <div className="mt-4">
+          <ViewProjectButton
+            href="https://github.com/rhysez/trove"
+            variant="public"
+          />
+        </div>
       </hgroup>
 
       <hgroup>
@@ -60,6 +71,13 @@ export default function Page() {
             You can check out ASCII snake's source code <Link className={"underline hover:text-jade transition-all"} href={"https://github.com/rhysez/ascii_snake"}>over here</Link>.
           </p>
         </SectionTextBody>
+
+        <div className="mt-4">
+          <ViewProjectButton
+            href="https://github.com/rhysez/ascii_snake"
+            variant="public"
+          />
+        </div>
       </hgroup>
 
     </article>

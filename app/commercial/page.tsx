@@ -1,5 +1,6 @@
 import SectionHeader from "@/custom_ui/static/SectionHeader";
 import SectionTextBody from "@/custom_ui/static/SectionTextBody";
+import ViewProjectButton from "@/custom_ui/static/ViewProjectButton";
 import Link from "next/link";
 
 export default function Page() {
@@ -36,6 +37,7 @@ export default function Page() {
             on the Quantavia blog <Link className={"underline hover:text-jade transition-all"} href={"https://quantavia.net/blog"}>here</Link>.
           </p>
         </SectionTextBody>
+
       </hgroup>
 
       <hgroup>
